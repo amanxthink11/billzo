@@ -1,0 +1,84 @@
+# Miscellaneous & OS
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# Environment and Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+*.jks
+*.keystore
+
+# Databases and Backups
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+*.billzobak
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Flutter / Dart / Pub
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+build/
+/coverage/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# Windows Native & Desktop Build Artifacts
+windows/flutter/ephemeral/
+windows/flutter/ephemeral/*
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.cache
+*.msix
+Billzo-1.0.0-Windows/
+
+# Android Specific
+.gradle/
+**/android/local.properties
+**/android/key.properties
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/.gradle
+/android/captures/
+/android/.cxx/
+
+# Symbols & Maps
+app.*.symbols
+app.*.map.json
